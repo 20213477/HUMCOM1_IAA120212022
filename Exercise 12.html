@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Box Model">
+    <meta name="author" content="Jeria P. Luzada">
+    <meta name="viewport" content="width=device-width,">
+    <link rel="stylesheets" type="text/css" href="styles\styles.css">
+</head>
+
+<style>
+    body{
+        font-family: sans-serif;
+    }
+    div {
+        background-color: white;
+        border: 1px solid black;
+        text-align: center;
+        margin: 10px;
+    }
+
+    header {
+        background-color: white;
+        border: 1px solid;
+        margin: 10px;
+    }
+
+    nav {
+        background-color: white;
+        border: 1px solid;
+        margin: 10px;
+    }
+
+    section {
+        background-color: white;
+        border: 1x solid black;
+        margin: 10px;
+    }
+
+    article {
+        background-color: white;
+        border: 1px solid;
+        margin: 10px;
+    }
+
+    p {
+        background-color: white;
+        border: 1px solid;
+        margin: 10px;
+    }
+
+    footer {
+        background-color: white;
+        border: 1px solid;
+        margin: 10px;
+    }
+
+    aside {
+        background-color: white;
+        border: 1px solid;
+        margin: 10px;
+    }
+
+    .dflex {
+        display: flex;
+    }
+
+    .w200 {
+        width: 200px;
+    }
+
+    .w400 {
+        width: 400px;
+    }
+
+    .h400{
+        height: 400px;
+    }
+    
+    .p {
+        width: 200px;
+        height: 100px;
+    }
+
+    .a{
+        width: 100px;
+        height: 100;
+    }
+
+    .w{
+        width: 600px;
+    }
+
+    .d{
+        background-color: darkgrey;
+    }
+
+    .l{
+        background-color: lightgrey;
+    }
+    
+    .r{
+        background-color: rgb(238, 238, 238);
+    }
+    
+</style>
+
+<body>
+    <div class="w d" >body
+        <header class="l">header
+            <nav class="r">nav</nav>
+        </header>
+      
+    <main class="dflex">
+        <div class="w200 l">
+            <section class="l">section
+                <header class="r">header</header>
+                <nav class="h400 r">nav</nav>
+                <footer class="r">footer</footer>
+            </section>
+        </div>
+
+        <div class="w400 l">  
+            <section class="l">section
+                <header class="r">header</header>
+                <article class="r">article
+                    <header>header</header>
+                    <p>p</p>
+                    <p>p</p>
+                    <footer>footer</footer>
+                </article>
+                <article class="r">article
+                    <header>header</header>
+                    <main class="dflex">
+                        <p class="p">p</p>
+                        <aside class="a">aside</aside>
+                    </main>
+                    <footer>footer</footer>
+                </article>
+                <footer class="r">footer</footer>
+            </section>  
+        </div>  
+    </main>   
+            <footer class="l">footer</footer>
+    </div>
+
+</body>
