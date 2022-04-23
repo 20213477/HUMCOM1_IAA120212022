@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Responsive Layouts">
+    <meta name="author" content="Jeria P. Luzada">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheets" type="text/css" href="styles\styles.css">
+</head>
+
+<style>
+    body{
+        background-color: white;
+    }
+    main{
+        display: flex;
+    }
+    div{
+        border: 5px white solid;
+        
+    }
+    .g{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 2px;
+        padding: 1px;
+        background-color: grey;
+    }
+    .d{
+        background-color: darkgrey;
+    }
+    .l{
+        background-color: lightgrey;
+    }
+    .c{
+        background-color: lightgrey;
+        height: 40px;
+        width: 360px;
+    }
+    .e{
+        background-color: darkgrey;
+        height: 50px;
+        width: 1024px;
+    }
+    .f{
+        background-color: darkgrey;
+        height: 150px;
+        width: 1024px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .h{
+        background-color: lightgrey;
+        height: 100px;
+        width: 1024px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    p{
+        margin: 1px;
+        border: 1px solid white;
+    }
+</style>
+<body>
+    <div style="width: 320px;"> 320px
+        <p class="d" style="height: 20px;"></p>
+        <p class="d" style="height: 20px;"></p>
+        <p class="g" style="height: 40px;"></p>
+        <p class="d" style="height: 60px;"></p>
+        <p class="d" style="height: 60px;"></p>
+        <p class="d" style="height: 60px;"></p>
+        <p class="l" style="height: 20px;"></p>
+    </div>
+    <br><br>
+    <div style="width: 720px;"> 720px
+        <p class="d" style="height: 30px;"></p>
+        <p class="d" style="height: 30px;"></p>
+        <p class="g" style="height: 50px;"></p>
+        <p class="d" style="height: 30px;"></p>
+        <p class="d" style="height: 30px;"></p>
+        <p class="d" style="height: 30px;"></p>
+        <main>
+            <p class="c"></p>
+            <p class="c"></p>
+        </main>
+        <main>
+            <p class="c"></p>
+            <p class="c"></p>
+        </main>
+        
+    </div>
+    <br><br>
+    <div style="width: 1024px;"> 1024px
+        <main>
+            <p class="e"></p>
+            <p class="e"></p>
+        </main>
+        <p class="g" style="height: 200px;"></p>
+        <main>
+            <p class="f"></p>
+            <p class="f"></p>
+            <p class="f"></p>
+        </main>
+        <main>
+            <p class="h"></p>
+            <p class="h"></p>
+            <p class="h"></p>
+            <p class="h"></p>
+        </main>
+        
+    </div>
+</body>
