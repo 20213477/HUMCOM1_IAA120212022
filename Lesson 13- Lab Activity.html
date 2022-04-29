@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <script>
+            document.write ("Hello, World!" + "<br>");
+
+            var lesson = "Lesson 13 - ";
+            var activity = " Lab Activity";
+            var final = lesson + activity;
+            document.write(final + "<br>");
+
+            var num1 = "10";
+            var num2 = "3";
+            var total = num1 * num2;
+            document.write(total  + "<br>");    
+
+            var add = total++;
+            document.write(total  + "<br>");
+        
+            var word = "ACTIVITY";
+            var length = word.length;
+            document.write(length  + "<br>");
+
+            var word1 = "LESSON";
+            var result = word1.substring (0, 3);
+            document.write(result  + "<br>");
+
+            var arr = ["a", "b", "c"];
+            document.write(arr[0] + arr[1] + arr[2] + "<br>");
+
+            function number(num) {
+                document.write("Number" + num);
+            }
+            number(1)
+            document.write("<br>");
+            number(2)
+            document.write("<br>");
+
+            var a = "Welcome";
+            var b = "Thank You"
+            if (a=="Welcome"){
+                alert(a);
+            }else{
+                alert (b);
+            }
+
+            for(i=0; i<=3; i++){
+                document.write(i + " ");
+            }
+        </script>
+    </body>
+</html>
